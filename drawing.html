@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="slidestyle.css">
+    <link rel="icon" type="image/png" href="logo5.png">
+    <title>Drawing</title>
+    <!--<script src="jQuery.js"></script>-->
+</head>
+
+<body>
+       
+    <span class="open-button" onclick="openNav()">&#9776;</span>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="portfolio.html">About</a>
+        <a href="graphic.html">Graphic Design</a>
+        <a href="drawing.html">Drawing</a>
+        <a href="photography.html">Photography</a>
+        <a href="videography.html">Videography</a>
+    </div>  
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <div class="wrap-header" id="myHeader" style="z-index: 300;">
+        <a href="portfolio.html"><img src="logo5.png" id="logo" class="logo-image"></a>
+        <div class="navigate">
+            <nav>
+                <ul>
+                    <li><a href="portfolio.html">About</a></li>
+                    <li><a href="graphic.html">Graphic Design</a></li>
+                    <li><a class="active" href="drawing.html">Drawing</a></li>
+                    <li><a href="photography.html">Photography</a></li>
+                    <li><a href="videography.html">Videography</a></li>
+                    <li class="line"></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class='intro'>
+        <img src="drawingtitle.png" style="width: 100%; margin-top: 4%;">
+        <h3 style="color: white;">Fall 2021/Spring 2023</h3>
+
+    </div>
+
+    <div class="catskills-div">
+        <h3 class="catskills-title">Catskills Landscape</h3>
+        
+        <div class="img_center">
+                <img src='Drawing/catskills-landscape.jpg' class="catskills-img">
+                <p class="img_description_catskills" style="top: 0; width: 60%; text-align: center;">Using Adobe Photoshop, I made this digital painting for my
+                    grandmother which depicts the view from her house in the Catskills.
+                </p>
+        </div>
+    </div>
+
+    <div>
+        <hr style="margin-top: 6%;">
+
+        <div>
+            <h3 class="final-title">Final
+                Project</h3>
+            <p class="p-desc">Tribute to Buddy, drawings done using Adobe Photoshop. </p>
+        </div>
+
+        <div class="center">
+            <div class="buddy-small">
+                <div class="small-img1"><img src="Drawing/buddydrawing.png" class="buddy-img"></div>
+                <div class="small-img2"><img src="Drawing/buddy3.jpg" class="buddy-img"></div>
+
+        </div>
+
+
+        <div class="img_center">
+            <div class="large-img">
+                <div class="img_wrap_center">
+                    <img src='Drawing/buddy2.jpg' class="buddy-img2">
+                    <p class="img__description" style="bottom: 0;">Proposed to deliver three relating works, I made a
+                        tribute to Buddy who passed
+                        just before I completed these pieces. Each drawing done in different styles, but unified using color
+                        and theme.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr style="margin-top: 6%;">
+
+    <div>
+        <h3 class="final-title">Miscellaneous
+            Works</h3>
+        <p class="p-desc">Drawings done using Adobe Photoshop. </p>
+    </div>
+
+    <div style="margin-left: 4%; margin-top: 4%; margin-bottom: 4%;">
+        <div class="row">
+            <div class="column" style="margin:2%; width: 26%;">
+                <img src='Drawing/hands-hatch.png' class="misc-drawings">
+            </div>
+            <div class="column" style="margin:2%; width: 31%;">
+                <img src="Drawing/portrait_mairead.jpg" class="misc-drawings">
+            </div>
+            <div class="column" style="margin:2%; width: 26%;">
+                <img src='Drawing/still-life_mairead.jpg' class="misc-drawings">
+            </div>
+        </div>
+    </div>
+
+    <hr style="margin-top: 6%;">
+    <div>
+        <h3 class="final-title">Artist Style
+            Study</h3>
+        <p class="p-desc">A study on the style of artist Vince Low by recreating one of his pieces and
+            making one of my own with efforts to duplicate his technique. Drawings done using Adobe Photoshop. </p>
+    </div>
+
+    <div class='bot-align'>
+        <img src='Drawing/low-billie.png' class="billie-drawing" />
+
+        <div class="slideshow-margins" id="low-slides">
+            <div class="slideshow-container" id="low-slides">
+
+                <div class="mySlides fade">
+                    <div class="numbertext" style="color: black;">1 / 2</div>
+                    <img src="Drawing/low-carrey.png" class="low-slides">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext" style="color: black;">2 / 2</div>
+                    <img src='Drawing/jimcarrey.png' class="low-slides">
+                </div>
+
+                <a class="prev" style="color: black;" onclick="plusSlides(-1)">❮</a>
+                <a class="next" style="color: black;" onclick="plusSlides(1)">❯</a>
+
+            </div>
+        </div>
+        <br>
+
+
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex - 1].style.display = "block";
+            }
+        </script>
+
+    </div>
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("myHeader").style.fontSize = "15px";
+                document.getElementById("logo").style.height = "34px";
+
+            } else {
+                document.getElementById("myHeader").style.fontSize = "18px";
+                document.getElementById("logo").style.height = "40px";
+
+            }
+        }
+    </script>
+
+</body>
+<footer>
+    <hr style="margin-top: 4%;">
+    <div class="contact">
+        <ul>
+            <li><i class="fa fa-home" style="color: white; font-size: 25px; padding: 6%;"></i><a href="portfolio.html"
+                    class="footer-link">Home</a>
+            </li><br>
+            <li><i class="fa fa-arrow-up" style="color: white; font-size: 20px; padding: 6%;"></i><a href="drawing.html"
+                    class="footer-link" style="display: inline-block; width:fit-content; white-space: nowrap;">Back to
+                    top</a>
+            </li>
+        </ul>
+
+    </div>
+</footer>
+
+</html>

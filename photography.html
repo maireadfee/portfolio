@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="slidestyle.css">
+    <link rel="icon" type="image/png" href="logo5.png">
+    <title>Photography</title>
+    <!--<script src="jQuery.js"></script>-->
+</head>
+
+<body>
+       
+    <span class="open-button" onclick="openNav()">&#9776;</span>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="portfolio.html">About</a>
+        <a href="graphic.html">Graphic Design</a>
+        <a href="drawing.html">Drawing</a>
+        <a href="photography.html">Photography</a>
+        <a href="videography.html">Videography</a>
+    </div>  
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <div class="wrap-header" id="myHeader" style="z-index: 300;">
+        <a href="portfolio.html"><img src="logo5.png" id="logo" class="logo-image"></a>
+        <div class="navigate">
+            <nav>
+                <ul>
+                    <li><a href="portfolio.html">About</a></li>
+                    <li><a href="graphic.html">Graphic Design</a></li>
+                    <li><a href="drawing.html">Drawing</a></li>
+                    <li><a class="active" href="photography.html">Photography</a></li>
+                    <li><a href="videography.html">Videography</a></li>
+                    <li class="line"></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="full-content">
+        <div class='intro'>
+            <img src="photographytitle.png" style="width: 100%; margin-top: 4%;">
+            <h3 style="color: white;">Fall 2020</h3>
+        </div>
+        <div class="content" style="margin-top: 2%;">
+            <div class='wrap_img' id="final-img-wrap">
+                <div class="img-block">
+                    <img src='PhotographyFinal/DSC_0685.jpg' class='final-img'>
+                </div>
+                <div class="about-info" id="hp-desc">
+                    <h2>Home Project </h2>
+                    <p>The subject of my Photography final project stemmed from what I am thankful for the most. I was
+                        inspired by the holidays Thanksgiving and Christmas, a time of thanks and spending time with
+                        family.
+                        I decided to focus on what makes a house a home and what exemplifies the feeling of being home.
+                        My sisters, my mom, my dad, my grandmother, and of course, my dog, Buddy. They are what makes
+                        HOME for me.
+                    </p>
+                </div>
+            </div>
+
+            <div class='wrap_img' id="photoslides-wrap">
+                <div class="img__wrap">
+                    <img src='PhotographyFinal/DSC_0710.jpg' class="photo1"/>
+                    <p class="img__description" id="ang_desc" style="bottom: 0;">My sister, Angie, is an incredibly smart student at
+                        Northeastern University studying Biomedical Engineering.
+                        She was the valedictorian of Haldane High School in 2019. She is an extremely talented pianist
+                        and violin player.
+                        Since I have completed this project in 2020, Angie has graduated, summa cum laude, from
+                        Northeastern University.
+                    </p>
+                </div>
+                <div class="slideshow-margins">
+                    <div class="slideshow-container" id="photography-slides">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="PhotographyFinal/DSC_0748.jpg" class="ang-slides">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src='PhotographyFinal/DSC_0715.jpg' class="ang-slides">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="PhotographyFinal/DSC_0410.jpg" class="ang-slides">
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    </div>
+                </div>
+                <br>
+
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                        let i;
+                        let slides = document.getElementsByClassName("mySlides");
+                        if (n > slides.length) { slideIndex = 1 }
+                        if (n < 1) { slideIndex = slides.length }
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                    }
+                </script>
+
+
+            </div>
+
+        </div>
+
+        <div class='wrap_img' id="catriona-photos">
+            <div class="img__wrap">
+                <img class="photo2" src='PhotographyFinal/DSC_0768.jpg' />
+                <p class="img__description" style="bottom: 0;">My sister, Catriona, is a political science major at
+                    Catholic University, studying world politics. She plays the concertina and has competed multiple
+                    times at the All Ireland Championships known as the Fleadh Cheoil Irish music festival.
+                    Since I have completed this project in 2020, Catriona has graduated, magna cum laude, from Catholic
+                    University.
+                </p>
+            </div>
+            <div class="img__wrap" id="photo3">
+                <img class="photo3" src='PhotographyFinal/DSC_0717.jpg' />
+            </div>
+        </div>
+
+
+
+    </div>
+    <br>
+    <div class="content2">
+        <div style="padding-top: 4%; padding-bottom: 4%; background-color: rgba(206, 81, 36, 0.60); ">
+            <div class="img__wrap" style="margin-top: 0%">
+                <div class="row">
+                    <div class="column" style="width: 25%;">
+                        <img src='PhotographyFinal/DSC_0657.jpg' class="photostrip">
+                    </div>
+                    <div class="column" style="width: 25%;">
+                        <img src="PhotographyFinal/DSC_0705.jpg" class="photostrip">
+                    </div>
+                    <div class="column" style="width: 25%;">
+                        <img src='PhotographyFinal/DSC_0664.jpg' class="photostrip">
+                    </div>
+                    <div class="column" style="width: 25%;">
+                        <img src="PhotographyFinal/DSC_0708.jpg" class="photostrip">
+                    </div>
+                </div>
+                <p class="img__description" style="bottom: 0;">My dad is a computer engineer for IBM. In his free time
+                    he loves to cook and watch movies.
+                    He is also a musician. He plays the accordion and drums. My mom is an accountant for Deloitte. She
+                    loves playing Scrabble and trivia games
+                    in her free time. She is also passionate about dancing and singing.
+                </p>
+            </div>
+        </div>
+
+        <div class='wrap_img' id="nanny-photos" style="margin-bottom: 4%;">
+            <div class="img__wrap" style="margin-top: 12%;">
+                <img class="photo4" src='PhotographyFinal/DSC_0666.jpg' style="height: 400px;" />
+                <p class="img__description" style="bottom: 0;">My grandmother (Nanny) hates being photographed, but I
+                    was able to sneak a
+                    photo of her with my mom playing trivia. Nanny was born in County Mayo, Ireland and moved here at a
+                    very young age. She passed
+                    down her passion for Irish music and dance to her whole family.
+                </p>
+            </div>
+            <div class="img__wrap">
+                <img class="photo5" src='PhotographyFinal/DSC_0225.jpg' />
+            </div>
+        </div>
+    </div>
+
+    <div class="content3" style="margin-bottom:4%;">
+        <div class="img_center" id="photo6-wrap">
+            <div class="img_wrap_center">
+                <img src='PhotographyFinal/DSC_0653.jpg' class="photo6">
+                <p class="img__description" style="bottom: 0;">Buddy passed away a year after I completed this project.
+                    He lived a full and happy life, and he was the best dog ever.
+                </p>
+            </div>
+        </div>
+
+        <div class="img__wrap" style="margin-top: 2%" id="photostrip2">
+            <div class="row">
+                <div class="column" style="width: 25%;">
+                    <img src='PhotographyFinal/DSC_0252.NEF' class="photostrip">
+                </div>
+                <div class="column" style="width: 25%;">
+                    <img src="PhotographyFinal/DSC_0729.jpg" class="photostrip">
+                </div>
+                <div class="column" style="width: 25%;">
+                    <img src='PhotographyFinal/DSC_0759.jpg' class="photostrip">
+                </div>
+                <div class="column" style="width: 25%;">
+                    <img src="PhotographyFinal/DSC_0343.jpg" class="photostrip">
+                </div>
+            </div>
+
+        </div>
+        <div class="img_center" id="photo6-wrap">
+            <div class="img_wrap_center">
+                <img src='PhotographyFinal/DSC_0761.jpg' class="photo6">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <h3 class="final-title">Miscellaneous Works
+    </h3>
+    <div class="content4" style="margin-left: 8%; margin-top: 4%; margin-bottom: 4%;">
+        <div class="row">
+            <div class="column" style="margin:2%; width: 26%;">
+                <img src='PhotographyFinal/misc/DSC_0481.jpg' class="photostrip">
+            </div>
+            <div class="column" style="margin:2%; width: 26%;">
+                <img src="PhotographyFinal/misc/DSC_0548.jpg" class="photostrip">
+            </div>
+            <div class="column" style="margin:2%; width: 26%;">
+                <img src='PhotographyFinal/misc/DSC_0271.NEF' class="photostrip">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" style="margin:2%; width: 26%;">
+                <img src="PhotographyFinal/misc/DSC_0584.jpg" class="photostrip">
+            </div>
+            <div class="column" style="margin: 2%; width: 26%;">
+                <img src="PhotographyFinal/misc/DSC_0498.jpg" class="photostrip">
+            </div>
+            <div class="column" style="margin: 2%; width: 26%;">
+                <img src="PhotographyFinal/misc/DSC_0684.jpg" class="photostrip">
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("myHeader").style.fontSize = "15px";
+                document.getElementById("logo").style.height = "34px";
+
+            } else {
+                document.getElementById("myHeader").style.fontSize = "18px";
+                document.getElementById("logo").style.height = "40px";
+
+            }
+        }
+    </script>
+</body>
+<footer>
+    <hr>
+    <div class="contact">
+        <ul>
+            <li><i class="fa fa-home" style="color: white; font-size: 25px; padding: 6%;"></i><a href="portfolio.html"
+                    class="footer-link">Home</a>
+            </li><br>
+            <li><i class="fa fa-arrow-up" style="color: white; font-size: 20px; padding: 6%;"></i><a href="photography.html"
+                    class="footer-link" style="display: inline-block; width:fit-content; white-space: nowrap;">Back to
+                    top</a>
+            </li>
+
+        </ul>
+
+    </div>
+</footer>
+
+</html>

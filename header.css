@@ -1,0 +1,91 @@
+@media only screen and (max-width: 920px) {
+    .navigate{
+        display: none;
+    
+    }
+    #myHeader{
+        background-color: transparent !important;
+    }
+}
+@media only screen and (max-width: 600px){
+    .logo-image{
+        height: 34px !important;
+        background-color: #e9b29e;
+        padding: 1%;
+        border-radius: 15%;
+        margin-left: 4.5% !important; 
+    }
+}
+html{
+    font-family: Candara, Georgia, serif;
+    background-image: url("screen2.png");
+    background-repeat: no-repeat; 
+    background-size: cover, contain;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    margin:0;
+}
+#logo{
+    height: 40px;
+    margin-left: 4%; 
+    transition: 0.3s;
+}
+.wrap-header{
+    margin: 0;
+    width: 100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-color: #e9b29e;
+    position: fixed;
+    top: 0;
+    transition: 0.1s;
+    font-size: 14pt ;
+}
+.navigate{
+    color: white;
+	overflow: hidden;
+    float: right;
+    height: 10%;
+    margin-top: 0.5%;
+    padding-right: 2%;
+}
+.navigate ul{
+	text-align: center;
+    position: relative;
+    display: inline-block;
+	margin: 0;
+	clear:both;
+}
+.navigate li{
+    list-style: none;
+    display: inline-block;
+	text-align: center;
+	padding: 10px;
+	text-decoration:none;
+	margin-left: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+}
+.active{
+    border: 1px solid white;
+    transition: 0.1s;
+    border-radius: 10px;
+    color: white;
+
+}
+nav a:hover{
+    border: 1px solid #ce5124;
+    transition: 0.1s;
+    border-radius: 10px;
+    color: #ce5124;
+}
+
+.link{color: white;}
+a:visited{color:white;}

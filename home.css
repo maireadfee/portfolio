@@ -1,0 +1,909 @@
+@media only screen and (max-width: 600px) {
+    html {
+        background-image: none !important;
+        background-color: #e9b29e !important;
+    }
+
+    .sidenav {
+        padding-top: 10%;
+        position: fixed !important;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .open-button {
+        visibility: visible !important;
+    }
+
+    /**********************************HOME CSS***********************/
+    .about-info p {
+        font-size: 10pt;
+    }
+
+    .about-info h2 {
+        font-size: 15pt;
+    }
+
+    .intro h3 {
+        font-size: 10pt;
+    }
+
+    .footer-link {
+        font-size: 10pt;
+    }
+
+    /*******************************GRAPHIC CSS************************/
+    .graphic-top-div p {
+        font-size: 10pt;
+    }
+
+    .graphic-top-div h3 {
+        font-size: 15pt !important;
+    }
+
+    .np-p p {
+        font-size: 10pt !important;
+    }
+
+    .book-cover {
+        width: 70% !important;
+    }
+
+    .menu-title p {
+        font-size: 10pt !important;
+    }
+
+    .cocktail-img {
+        width: 50% !important;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .food-img {
+        width: 35% !important;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .map-img {
+        width: 70% !important;
+    }
+
+    .map-title {
+        font-size: 12pt !important;
+    }
+
+    .album-proj-title {
+        font-size: 20pt !important;
+    }
+
+    .p-desc {
+        font-size: 10pt;
+        margin: 2%;
+    }
+
+    .album-align {
+        align-items: center;
+        justify-content: center;
+        display: block !important;
+
+    }
+
+    .album-cover {
+        height: 350px !important;
+        align-items: center !important;
+        margin-left: 2% !important;
+        margin-right: auto !important;
+    }
+
+    .lyric-slides {
+        height: 350px !important;
+        justify-content: center !important;
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+
+    #lyric-slides.slideshow-container {
+        justify-content: center;
+        margin-left: -0.5% !important;
+        margin-right: auto !important;
+        width: 85% !important;
+    }
+
+    .artboard1,
+    .artboard2 {
+        height: 350px !important;
+        align-items: center !important;
+        margin-bottom: 4%;
+        margin-left: 2% !important;
+        margin-right: auto !important;
+    }
+
+    .center {
+        align-items: center;
+        margin-left: 2%;
+    }
+
+    /******************************DRAWING CSS****************************/
+    .catskills-title,
+    .final-title {
+        font-size: 18pt !important;
+    }
+
+    .img__description {
+        font-size: 8pt !important;
+    }
+
+    .img_description_catskills {
+        font-size: 8pt !important;
+        width: 90% !important;
+    }
+
+    .catskills-img {
+        width: 90% !important;
+    }
+
+    .buddy-small {
+        align-items: center;
+        justify-content: center;
+        display: block !important;
+
+    }
+
+    .buddy-img {
+        height: 400px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .small-img1 {
+        width: 85% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .small-img2 {
+        width: 75% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .buddy-img2 {
+        height: 240px !important;
+        margin-left: auto !important;
+        margin-right: 4% !important;
+    }
+
+    .misc-drawings {
+        height: 170px !important;
+    }
+
+    .billie-drawing {
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+        height: 400px !important;
+    }
+
+    .low-slides {
+        height: 400px !important;
+        margin-left: 0 !important;
+        margin-right: auto !important;
+
+    }
+
+    #low-slides.slideshow-container {
+        display: block;
+        justify-content: center !important;
+        margin-left: 10% !important;
+        margin-right: auto !important;
+    }
+    
+    .bot-align {
+        display: block !important;
+    }
+
+    /*******************************************PHOTOGRAPHY*/
+    #final-img-wrap.wrap_img {
+        padding-top: 8% !important;
+        display: block;
+    }
+
+    .final-img {
+        height: 320px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        justify-content: center;
+    }
+
+    .photo1 {
+        height: auto !important;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        margin-bottom: 8%;
+    }
+
+    #photography-slides.slideshow-container {
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 80% !important;
+    }
+
+
+    .ang-slides {
+        height: 450px !important;
+        margin-left: -1% !important;
+        margin-right: auto !important;
+    }
+
+    #photoslides-wrap.wrap_img {
+        display: block !important;
+        justify-content: center;
+    }
+
+    #ang_desc.img__description {
+        width: 100% !important;
+    }
+
+    #catriona-photos.wrap_img,
+    #nanny-photos.wrap_img {
+        display: block !important;
+        justify-content: center;
+    }
+
+    .photo2,
+    .photo4 {
+        height: auto !important;
+        width: 100%;
+        display: block;
+        justify-content: center;
+    }
+
+    .photo3 {
+        height: 350px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .photo5 {
+        height: 350px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block;
+    }
+
+    .photostrip {
+        width: 100% !important;
+        height: 200px !important;
+    }
+
+    #photostrip2 {
+        margin-top: 6% !important;
+        margin-bottom: 6% !important;
+    }
+
+    .photo6 {
+        height: 240px !important;
+    }
+
+    #photo6-wrap {
+        margin-left: 4% !important;
+        margin-right: 4% !important;
+    }
+
+    /*VIDEOGRAPHY*/
+    .video-align {
+        display: block !important;
+        margin-right: 2%;
+    }
+
+    .video-dim,
+    .video {
+        width: 360px !important;
+        height: 240px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .video {
+        margin-top: 4% !important;
+        margin-bottom: 4% !important;
+        padding: 4% !important;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image: "screen1.png";
+}
+
+footer {
+    width: 100%;
+    height: 1%;
+    display: inline-block;
+}
+
+.intro {
+    padding-bottom: 2%;
+    text-align: center;
+    opacity: 1;
+    padding-top: 8%;
+    font-size: 14pt;
+
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 0;
+}
+
+.wrap_img {
+    display: flex;
+    padding-left: 8%;
+    padding-right: 7%;
+}
+
+h2 {
+    color: white;
+    padding-top: 4%;
+    font-weight: normal;
+    font-size: 28pt;
+    padding-left: 4%;
+    font-style: normal;
+}
+
+.p-top {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 12pt;
+    text-align: right;
+}
+
+.p-desc {
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 12pt;
+    padding: 0;
+    margin-bottom: 2%;
+    line-height: 1.7;
+}
+
+p {
+    color: white;
+    font-weight: normal;
+    margin-top: 3%;
+    font-size: 14pt;
+    padding-left: 10%;
+    padding-right: 8%;
+    line-height: 1.7;
+}
+
+.grad_img {
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+    margin-right: 2%;
+}
+
+h4 {
+    color: white;
+    font-size: 11pt;
+    font-weight: lighter;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+}
+
+.contact {
+    margin-top: 4%;
+    padding-left: 4%;
+    margin-bottom: 4%;
+}
+
+.img_left {
+    height: 500px;
+    margin-right: 2%;
+}
+
+.final-img {
+    height: 500px;
+    margin-right: 2%;
+    display: flex;
+}
+
+
+.img_right {
+    float: left;
+    height: 500px;
+    margin-right: 2%;
+}
+
+.img_center {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.name {
+    color: white;
+    font-weight: normal;
+    font-size: 20pt;
+    font-style: italic;
+    margin-top: 0;
+    margin-left: 8%;
+}
+
+.projecttitle {
+    color: white;
+    padding-top: 8%;
+    font-weight: normal;
+    font-size: 28pt;
+    text-align: center;
+    margin-right: 6%;
+}
+
+h5 {
+    color: white;
+    font-weight: normal;
+    font-size: 28pt;
+    text-align: center;
+    padding-top: 8%;
+    margin-right: 2%;
+}
+
+/****************************PHOTOGRAPHY**********************/
+#final-img-wrap.wrap_img {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin: 2%;
+    background-color: rgba(206, 81, 36, 0.60);
+    border-radius: 10px;
+}
+
+.img-block {
+    display: flex;
+}
+
+.photo1 {
+    height: 400px;
+    display: flex;
+}
+
+.photo2 {
+    height: 400px;
+    display: flex;
+}
+
+.photo3,
+.photo5 {
+    height: 500px;
+    margin-left: 21%;
+}
+
+.photostrip {
+    width: 100%;
+    height: 500px;
+}
+
+.ang-slides {
+    height: 500px;
+}
+
+
+#catriona-photos.wrap_img {
+    display: flex;
+
+}
+
+.about-catriona {
+    display: flex;
+    width: 55%;
+}
+
+#photo3.img__wrap {
+    display: flex;
+}
+
+#photo6-wrap {
+    padding: 4%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    background-color: rgba(206, 81, 36, 0.60);
+    border-radius: 10px;
+}
+
+.photo6 {
+    height: 450px;
+}
+
+.img__wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 8%;
+}
+
+.img_wrap_center {
+    position: relative;
+}
+
+.img__description {
+    font-size: 12pt;
+    position: absolute;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: rgba(206, 81, 36, 0.60);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+.img_description_catskills {
+    font-size: 12pt;
+    position: absolute;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: rgba(206, 81, 36, 0.60);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    width: 60%;
+}
+
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.img_center:hover .img_description_catskills {
+    visibility: visible;
+    opacity: 1;
+}
+
+.img_wrap_center:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.content2 {
+    margin-top: 6%;
+}
+
+.column {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+hr {
+    border: 1.2px solid white;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.horizontal-align {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*GRAPHIC*/
+.graphic-top-div {
+    background-color: rgba(206, 81, 36, 0.60);
+    border-radius: 10px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.graphic-top-div h3 {
+    font-size: 28pt;
+    text-align: right;
+    margin-right: 8%;
+    margin-top: 2%;
+    font-style: normal;
+}
+
+.np-p {
+    background-color: rgba(206, 81, 36, 0.60);
+    margin: 4%;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 25%;
+    text-align: center;
+}
+
+.np-p p {
+    font-size: 12pt;
+    color: white;
+}
+
+.book-cover {
+    width: 50%;
+}
+
+.album-proj-title {
+    color: rgba(206, 81, 36, 0.80);
+    font-size: 28pt;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.album-align {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 2%;
+}
+
+.album-cover {
+    height: 500px;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+.lyric-slides {
+    height: 500px;
+    margin-left: 2% !important;
+}
+
+.artboard1 {
+    margin-right: 0.5%;
+    height: 450px;
+    margin-left: 2%;
+}
+
+.artboard2 {
+    margin-right: 0.5%;
+    height: 450px;
+    margin-left: 2%;
+}
+
+.map-title {
+    font-size: 18pt;
+    text-align: left;
+}
+
+.map-img {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.graphic-bot-div {
+    background-color: rgba(206, 81, 36, 0.60);
+    border-radius: 10px;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.menu-title {
+    background-color: rgba(206, 81, 36, 0.60);
+    border-radius: 10px;
+    float: right;
+    padding-top: 1%;
+    width: 25%;
+    margin-top: 4%;
+    margin-right: 13.5%;
+}
+
+.cocktail-img {
+    width: 40%;
+    margin-right: 4%;
+}
+
+.food-img {
+    width: 28%;
+    margin-left: 4%;
+}
+
+/**********************************DRAWING*************************************************/
+.catskills-div {
+    padding: 2%;
+    padding-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(206, 81, 36, 0.60);
+    border-radius: 10px;
+}
+
+.catskills-title {
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+    font-style: normal;
+    padding-top: 2%;
+}
+
+.catskills-img {
+    width: 60%;
+}
+
+.final-title {
+    color: rgba(206, 81, 36, 0.80);
+    font-size: 28pt;
+    text-align: center;
+    margin-top: 4%;
+}
+
+
+.buddy-small {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.small-img1,
+.small-img2 {
+    margin-left: 2%;
+    padding: 4%;
+    margin: 4%;
+    background-color: rgba(206, 81, 36, 0.60);
+    border-radius: 10px;
+}
+
+.buddy-img {
+    height: 500px;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.large-img {
+    padding: 4%;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: rgba(206, 81, 36, 0.60);
+    border-radius: 10px;
+}
+
+.buddy-img2 {
+    height: 450px;
+}
+
+.misc-drawings {
+    width: 100%;
+    height: 480px;
+}
+
+.bot-align {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.billie-drawing {
+    margin-top: 4%;
+    height: 500px;
+    margin-left: 15%;
+    margin-right: 12%;
+    display: flex;
+
+}
+
+.low-slides {
+    height: 500px;
+}
+
+
+.video {
+    background-color: rgba(206, 81, 36, 0.60);
+    border-radius: 10px;
+    height: 400px;
+    width: 520px;
+    padding: 2%;
+    margin: 1%;
+}
+
+.video-align {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.video-dim {
+    width: 520px;
+    height: 400px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover {
+    color: #ce5124;
+
+}
+
+.open-button {
+    visibility: hidden;
+    z-index: 400;
+    font-size: 30px;
+    cursor: pointer;
+    color: #d97855;
+    position: absolute;
+    position: fixed;
+    right: 0;
+    margin-top: 3%;
+    margin-right: 4%;
+    background-color: #e9b29e;
+    padding: 1%;
+    border-radius: 15%;
+}
+
+.open-button:hover {
+    color: white;
+}
+
+
+.sidenav {
+    position: absolute;
+    width: 0;
+    right: 0;
+    height: 100%;
+    background-color: #e9b29e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 400;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-wrap: nowrap !important;
+}
+
+.sidenav a:hover {
+    color: #ce5124;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+    right: 0;
+    margin-right: 20%;
+    z-index: 400;
+}
+
+.closebtn:hover {
+    color: #ce5124;
+}
