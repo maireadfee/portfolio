@@ -17,6 +17,7 @@
         visibility: visible !important;
     }
 
+
     /**********************************HOME CSS***********************/
     .about-info p {
         font-size: 10pt;
@@ -318,12 +319,11 @@
 
 html {
     scroll-behavior: smooth;
-    background-image: "screen1.png";
 }
 
 footer {
     width: 100%;
-    height: 1%;
+    height: 1.5%;
     display: inline-block;
 }
 
